@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0E444B1F34ECCE00E6D9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E444A1F34ECCE00E6D9EE /* AppDelegate.swift */; };
+		7D0E444D1F34ECCE00E6D9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E444C1F34ECCE00E6D9EE /* ViewController.swift */; };
+		7D0E44501F34ECCE00E6D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E444E1F34ECCE00E6D9EE /* Main.storyboard */; };
+		7D0E44521F34ECCE00E6D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E44511F34ECCE00E6D9EE /* Assets.xcassets */; };
+		7D0E44551F34ECCE00E6D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E44531F34ECCE00E6D9EE /* LaunchScreen.storyboard */; };
+		7D0E44601F34ECCF00E6D9EE /* FindAndEatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E445F1F34ECCF00E6D9EE /* FindAndEatTests.swift */; };
+		7D0E446B1F34ECCF00E6D9EE /* FindAndEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E446A1F34ECCF00E6D9EE /* FindAndEatUITests.swift */; };
+		96DFB7C5380D82444E0C5DE3 /* Pods_FindAndEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2F7AEF10CDC7AA6FDD5D6 /* Pods_FindAndEat.framework */; };
+		B65372C89F608ED98D3A3584 /* Pods_FindAndEatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7166E462729F9157F8DBD469 /* Pods_FindAndEatTests.framework */; };
+		BD0AA2E5D1AF6B619AA8AEDB /* Pods_FindAndEatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C752238EADCB4392B093FFB /* Pods_FindAndEatUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D0E445C1F34ECCE00E6D9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0E443F1F34ECCE00E6D9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0E44461F34ECCE00E6D9EE;
+			remoteInfo = FindAndEat;
+		};
+		7D0E44671F34ECCF00E6D9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0E443F1F34ECCE00E6D9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0E44461F34ECCE00E6D9EE;
+			remoteInfo = FindAndEat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28EE3D09F75F9B2505BE8563 /* Pods-FindAndEatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEatTests/Pods-FindAndEatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29A2F7AEF10CDC7AA6FDD5D6 /* Pods_FindAndEat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindAndEat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391ABB481FC62DD5D99B7504 /* Pods-FindAndEatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEatUITests/Pods-FindAndEatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C752238EADCB4392B093FFB /* Pods_FindAndEatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindAndEatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6749BB3DB438139B11F211AE /* Pods-FindAndEatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEatUITests/Pods-FindAndEatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7166E462729F9157F8DBD469 /* Pods_FindAndEatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindAndEatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0E44471F34ECCE00E6D9EE /* FindAndEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAndEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0E444A1F34ECCE00E6D9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D0E444C1F34ECCE00E6D9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D0E444F1F34ECCE00E6D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D0E44511F34ECCE00E6D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D0E44541F34ECCE00E6D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D0E44561F34ECCE00E6D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0E445B1F34ECCE00E6D9EE /* FindAndEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAndEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0E445F1F34ECCF00E6D9EE /* FindAndEatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndEatTests.swift; sourceTree = "<group>"; };
+		7D0E44611F34ECCF00E6D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0E44661F34ECCF00E6D9EE /* FindAndEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAndEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0E446A1F34ECCF00E6D9EE /* FindAndEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndEatUITests.swift; sourceTree = "<group>"; };
+		7D0E446C1F34ECCF00E6D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82519E34502BBF03B78DC4D9 /* Pods-FindAndEatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEatTests/Pods-FindAndEatTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9D1B24A4A9540F5C65F73E7 /* Pods-FindAndEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat.debug.xcconfig"; sourceTree = "<group>"; };
+		F0EA33FEE3E23A07BDB77C5F /* Pods-FindAndEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEat.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D0E44441F34ECCE00E6D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DFB7C5380D82444E0C5DE3 /* Pods_FindAndEat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E44581F34ECCE00E6D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65372C89F608ED98D3A3584 /* Pods_FindAndEatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E44631F34ECCF00E6D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0AA2E5D1AF6B619AA8AEDB /* Pods_FindAndEatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA1DAEAC8BF644B20A44BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9D1B24A4A9540F5C65F73E7 /* Pods-FindAndEat.debug.xcconfig */,
+				F0EA33FEE3E23A07BDB77C5F /* Pods-FindAndEat.release.xcconfig */,
+				28EE3D09F75F9B2505BE8563 /* Pods-FindAndEatTests.debug.xcconfig */,
+				82519E34502BBF03B78DC4D9 /* Pods-FindAndEatTests.release.xcconfig */,
+				391ABB481FC62DD5D99B7504 /* Pods-FindAndEatUITests.debug.xcconfig */,
+				6749BB3DB438139B11F211AE /* Pods-FindAndEatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D0E443E1F34ECCE00E6D9EE = {
+			isa = PBXGroup;
+			children = (
+				7D0E44491F34ECCE00E6D9EE /* FindAndEat */,
+				7D0E445E1F34ECCE00E6D9EE /* FindAndEatTests */,
+				7D0E44691F34ECCF00E6D9EE /* FindAndEatUITests */,
+				7D0E44481F34ECCE00E6D9EE /* Products */,
+				3DA1DAEAC8BF644B20A44BD9 /* Pods */,
+				DF08C9713986E12AED6F6C41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D0E44481F34ECCE00E6D9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E44471F34ECCE00E6D9EE /* FindAndEat.app */,
+				7D0E445B1F34ECCE00E6D9EE /* FindAndEatTests.xctest */,
+				7D0E44661F34ECCF00E6D9EE /* FindAndEatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D0E44491F34ECCE00E6D9EE /* FindAndEat */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E444A1F34ECCE00E6D9EE /* AppDelegate.swift */,
+				7D0E444C1F34ECCE00E6D9EE /* ViewController.swift */,
+				7D0E444E1F34ECCE00E6D9EE /* Main.storyboard */,
+				7D0E44511F34ECCE00E6D9EE /* Assets.xcassets */,
+				7D0E44531F34ECCE00E6D9EE /* LaunchScreen.storyboard */,
+				7D0E44561F34ECCE00E6D9EE /* Info.plist */,
+			);
+			path = FindAndEat;
+			sourceTree = "<group>";
+		};
+		7D0E445E1F34ECCE00E6D9EE /* FindAndEatTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E445F1F34ECCF00E6D9EE /* FindAndEatTests.swift */,
+				7D0E44611F34ECCF00E6D9EE /* Info.plist */,
+			);
+			path = FindAndEatTests;
+			sourceTree = "<group>";
+		};
+		7D0E44691F34ECCF00E6D9EE /* FindAndEatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E446A1F34ECCF00E6D9EE /* FindAndEatUITests.swift */,
+				7D0E446C1F34ECCF00E6D9EE /* Info.plist */,
+			);
+			path = FindAndEatUITests;
+			sourceTree = "<group>";
+		};
+		DF08C9713986E12AED6F6C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A2F7AEF10CDC7AA6FDD5D6 /* Pods_FindAndEat.framework */,
+				7166E462729F9157F8DBD469 /* Pods_FindAndEatTests.framework */,
+				3C752238EADCB4392B093FFB /* Pods_FindAndEatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D0E44461F34ECCE00E6D9EE /* FindAndEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0E446F1F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEat" */;
+			buildPhases = (
+				55C88A0A8AF557E4B2E3CAB8 /* [CP] Check Pods Manifest.lock */,
+				7D0E44431F34ECCE00E6D9EE /* Sources */,
+				7D0E44441F34ECCE00E6D9EE /* Frameworks */,
+				7D0E44451F34ECCE00E6D9EE /* Resources */,
+				0F244D76DFE7A817983532B4 /* [CP] Embed Pods Frameworks */,
+				E699F37ABA865D10D6F2875E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindAndEat;
+			productName = FindAndEat;
+			productReference = 7D0E44471F34ECCE00E6D9EE /* FindAndEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D0E445A1F34ECCE00E6D9EE /* FindAndEatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0E44721F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEatTests" */;
+			buildPhases = (
+				0900A75ED51BCDED8283BE7A /* [CP] Check Pods Manifest.lock */,
+				7D0E44571F34ECCE00E6D9EE /* Sources */,
+				7D0E44581F34ECCE00E6D9EE /* Frameworks */,
+				7D0E44591F34ECCE00E6D9EE /* Resources */,
+				F573C58E7457BC85B1F9E476 /* [CP] Embed Pods Frameworks */,
+				5A7275C5167ABCEEB9051009 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0E445D1F34ECCE00E6D9EE /* PBXTargetDependency */,
+			);
+			name = FindAndEatTests;
+			productName = FindAndEatTests;
+			productReference = 7D0E445B1F34ECCE00E6D9EE /* FindAndEatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D0E44651F34ECCF00E6D9EE /* FindAndEatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0E44751F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEatUITests" */;
+			buildPhases = (
+				90FBB2ACA6467E89083C9B7A /* [CP] Check Pods Manifest.lock */,
+				7D0E44621F34ECCF00E6D9EE /* Sources */,
+				7D0E44631F34ECCF00E6D9EE /* Frameworks */,
+				7D0E44641F34ECCF00E6D9EE /* Resources */,
+				923BE928F7F43C78BCD64084 /* [CP] Embed Pods Frameworks */,
+				5605F53811D63F02A9AFFFD8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0E44681F34ECCF00E6D9EE /* PBXTargetDependency */,
+			);
+			name = FindAndEatUITests;
+			productName = FindAndEatUITests;
+			productReference = 7D0E44661F34ECCF00E6D9EE /* FindAndEatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D0E443F1F34ECCE00E6D9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "night-gluttons";
+				TargetAttributes = {
+					7D0E44461F34ECCE00E6D9EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					7D0E445A1F34ECCE00E6D9EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D0E44461F34ECCE00E6D9EE;
+					};
+					7D0E44651F34ECCF00E6D9EE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D0E44461F34ECCE00E6D9EE;
+					};
+				};
+			};
+			buildConfigurationList = 7D0E44421F34ECCE00E6D9EE /* Build configuration list for PBXProject "FindAndEat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D0E443E1F34ECCE00E6D9EE;
+			productRefGroup = 7D0E44481F34ECCE00E6D9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D0E44461F34ECCE00E6D9EE /* FindAndEat */,
+				7D0E445A1F34ECCE00E6D9EE /* FindAndEatTests */,
+				7D0E44651F34ECCF00E6D9EE /* FindAndEatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D0E44451F34ECCE00E6D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0E44551F34ECCE00E6D9EE /* LaunchScreen.storyboard in Resources */,
+				7D0E44521F34ECCE00E6D9EE /* Assets.xcassets in Resources */,
+				7D0E44501F34ECCE00E6D9EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E44591F34ECCE00E6D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E44641F34ECCF00E6D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0900A75ED51BCDED8283BE7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindAndEatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F244D76DFE7A817983532B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C88A0A8AF557E4B2E3CAB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindAndEat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5605F53811D63F02A9AFFFD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEatUITests/Pods-FindAndEatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7275C5167ABCEEB9051009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEatTests/Pods-FindAndEatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FBB2ACA6467E89083C9B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindAndEatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923BE928F7F43C78BCD64084 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEatUITests/Pods-FindAndEatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E699F37ABA865D10D6F2875E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F573C58E7457BC85B1F9E476 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEatTests/Pods-FindAndEatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D0E44431F34ECCE00E6D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0E444D1F34ECCE00E6D9EE /* ViewController.swift in Sources */,
+				7D0E444B1F34ECCE00E6D9EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E44571F34ECCE00E6D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0E44601F34ECCF00E6D9EE /* FindAndEatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0E44621F34ECCF00E6D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0E446B1F34ECCF00E6D9EE /* FindAndEatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D0E445D1F34ECCE00E6D9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0E44461F34ECCE00E6D9EE /* FindAndEat */;
+			targetProxy = 7D0E445C1F34ECCE00E6D9EE /* PBXContainerItemProxy */;
+		};
+		7D0E44681F34ECCF00E6D9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0E44461F34ECCE00E6D9EE /* FindAndEat */;
+			targetProxy = 7D0E44671F34ECCF00E6D9EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D0E444E1F34ECCE00E6D9EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0E444F1F34ECCE00E6D9EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D0E44531F34ECCE00E6D9EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0E44541F34ECCE00E6D9EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D0E446D1F34ECCF00E6D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D0E446E1F34ECCF00E6D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D0E44701F34ECCF00E6D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D1B24A4A9540F5C65F73E7 /* Pods-FindAndEat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindAndEat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FindAndEat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D0E44711F34ECCF00E6D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EA33FEE3E23A07BDB77C5F /* Pods-FindAndEat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindAndEat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FindAndEat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7D0E44731F34ECCF00E6D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EE3D09F75F9B2505BE8563 /* Pods-FindAndEatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindAndEatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FindAndEatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindAndEat.app/FindAndEat";
+			};
+			name = Debug;
+		};
+		7D0E44741F34ECCF00E6D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82519E34502BBF03B78DC4D9 /* Pods-FindAndEatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FindAndEatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FindAndEatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindAndEat.app/FindAndEat";
+			};
+			name = Release;
+		};
+		7D0E44761F34ECCF00E6D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391ABB481FC62DD5D99B7504 /* Pods-FindAndEatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FindAndEatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FindAndEatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FindAndEat;
+			};
+			name = Debug;
+		};
+		7D0E44771F34ECCF00E6D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6749BB3DB438139B11F211AE /* Pods-FindAndEatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FindAndEatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FindAndEatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FindAndEat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D0E44421F34ECCE00E6D9EE /* Build configuration list for PBXProject "FindAndEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0E446D1F34ECCF00E6D9EE /* Debug */,
+				7D0E446E1F34ECCF00E6D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0E446F1F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0E44701F34ECCF00E6D9EE /* Debug */,
+				7D0E44711F34ECCF00E6D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D0E44721F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0E44731F34ECCF00E6D9EE /* Debug */,
+				7D0E44741F34ECCF00E6D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D0E44751F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0E44761F34ECCF00E6D9EE /* Debug */,
+				7D0E44771F34ECCF00E6D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D0E443F1F34ECCE00E6D9EE /* Project object */;
+}
