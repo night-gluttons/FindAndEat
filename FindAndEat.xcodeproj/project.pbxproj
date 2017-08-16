@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		7D0E444B1F34ECCE00E6D9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E444A1F34ECCE00E6D9EE /* AppDelegate.swift */; };
-		7D0E444D1F34ECCE00E6D9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E444C1F34ECCE00E6D9EE /* ViewController.swift */; };
 		7D0E44501F34ECCE00E6D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E444E1F34ECCE00E6D9EE /* Main.storyboard */; };
 		7D0E44521F34ECCE00E6D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E44511F34ECCE00E6D9EE /* Assets.xcassets */; };
 		7D0E44551F34ECCE00E6D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0E44531F34ECCE00E6D9EE /* LaunchScreen.storyboard */; };
 		7D0E44601F34ECCF00E6D9EE /* FindAndEatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E445F1F34ECCF00E6D9EE /* FindAndEatTests.swift */; };
 		7D0E446B1F34ECCF00E6D9EE /* FindAndEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0E446A1F34ECCF00E6D9EE /* FindAndEatUITests.swift */; };
+		7DEE22AF1F44C95400F9FDD0 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE22AE1F44C95400F9FDD0 /* MainTabBarViewController.swift */; };
+		7DEE22B11F44C9D500F9FDD0 /* ReceiptsListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE22B01F44C9D500F9FDD0 /* ReceiptsListStoryboard.storyboard */; };
+		7DEE22B31F44CA4F00F9FDD0 /* ReceiptsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE22B21F44CA4F00F9FDD0 /* ReceiptsListViewController.swift */; };
+		7DEE22B61F44CAEA00F9FDD0 /* UIStoryboard+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE22B51F44CAEA00F9FDD0 /* UIStoryboard+Instantiate.swift */; };
+		7DEE22BA1F44D32300F9FDD0 /* ProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE22B91F44D32300F9FDD0 /* ProfileStoryboard.storyboard */; };
+		7DEE22BC1F44D34100F9FDD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE22BB1F44D34100F9FDD0 /* ProfileViewController.swift */; };
 		96DFB7C5380D82444E0C5DE3 /* Pods_FindAndEat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A2F7AEF10CDC7AA6FDD5D6 /* Pods_FindAndEat.framework */; };
 		B65372C89F608ED98D3A3584 /* Pods_FindAndEatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7166E462729F9157F8DBD469 /* Pods_FindAndEatTests.framework */; };
 		BD0AA2E5D1AF6B619AA8AEDB /* Pods_FindAndEatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C752238EADCB4392B093FFB /* Pods_FindAndEatUITests.framework */; };
@@ -45,7 +50,6 @@
 		7166E462729F9157F8DBD469 /* Pods_FindAndEatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindAndEatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0E44471F34ECCE00E6D9EE /* FindAndEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAndEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0E444A1F34ECCE00E6D9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D0E444C1F34ECCE00E6D9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D0E444F1F34ECCE00E6D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D0E44511F34ECCE00E6D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D0E44541F34ECCE00E6D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,12 @@
 		7D0E44661F34ECCF00E6D9EE /* FindAndEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAndEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0E446A1F34ECCF00E6D9EE /* FindAndEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndEatUITests.swift; sourceTree = "<group>"; };
 		7D0E446C1F34ECCF00E6D9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DEE22AE1F44C95400F9FDD0 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		7DEE22B01F44C9D500F9FDD0 /* ReceiptsListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReceiptsListStoryboard.storyboard; sourceTree = "<group>"; };
+		7DEE22B21F44CA4F00F9FDD0 /* ReceiptsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsListViewController.swift; sourceTree = "<group>"; };
+		7DEE22B51F44CAEA00F9FDD0 /* UIStoryboard+Instantiate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Instantiate.swift"; sourceTree = "<group>"; };
+		7DEE22B91F44D32300F9FDD0 /* ProfileStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileStoryboard.storyboard; sourceTree = "<group>"; };
+		7DEE22BB1F44D34100F9FDD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		82519E34502BBF03B78DC4D9 /* Pods-FindAndEatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEatTests/Pods-FindAndEatTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9D1B24A4A9540F5C65F73E7 /* Pods-FindAndEat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat.debug.xcconfig"; sourceTree = "<group>"; };
 		F0EA33FEE3E23A07BDB77C5F /* Pods-FindAndEat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindAndEat.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,9 +137,10 @@
 		7D0E44491F34ECCE00E6D9EE /* FindAndEat */ = {
 			isa = PBXGroup;
 			children = (
+				7DEE22B41F44CAD500F9FDD0 /* Extensions */,
+				7DEE22AD1F44C8E700F9FDD0 /* UI */,
+				7DE321941F35947D00E430C0 /* Storyboards */,
 				7D0E444A1F34ECCE00E6D9EE /* AppDelegate.swift */,
-				7D0E444C1F34ECCE00E6D9EE /* ViewController.swift */,
-				7D0E444E1F34ECCE00E6D9EE /* Main.storyboard */,
 				7D0E44511F34ECCE00E6D9EE /* Assets.xcassets */,
 				7D0E44531F34ECCE00E6D9EE /* LaunchScreen.storyboard */,
 				7D0E44561F34ECCE00E6D9EE /* Info.plist */,
@@ -153,6 +164,34 @@
 				7D0E446C1F34ECCF00E6D9EE /* Info.plist */,
 			);
 			path = FindAndEatUITests;
+			sourceTree = "<group>";
+		};
+		7DE321941F35947D00E430C0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7D0E444E1F34ECCE00E6D9EE /* Main.storyboard */,
+				7DEE22B01F44C9D500F9FDD0 /* ReceiptsListStoryboard.storyboard */,
+				7DEE22B91F44D32300F9FDD0 /* ProfileStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		7DEE22AD1F44C8E700F9FDD0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE22AE1F44C95400F9FDD0 /* MainTabBarViewController.swift */,
+				7DEE22B21F44CA4F00F9FDD0 /* ReceiptsListViewController.swift */,
+				7DEE22BB1F44D34100F9FDD0 /* ProfileViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7DEE22B41F44CAD500F9FDD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7DEE22B51F44CAEA00F9FDD0 /* UIStoryboard+Instantiate.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		DF08C9713986E12AED6F6C41 /* Frameworks */ = {
@@ -281,9 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEE22B11F44C9D500F9FDD0 /* ReceiptsListStoryboard.storyboard in Resources */,
 				7D0E44551F34ECCE00E6D9EE /* LaunchScreen.storyboard in Resources */,
 				7D0E44521F34ECCE00E6D9EE /* Assets.xcassets in Resources */,
 				7D0E44501F34ECCE00E6D9EE /* Main.storyboard in Resources */,
+				7DEE22BA1F44D32300F9FDD0 /* ProfileStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +369,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindAndEat/Pods-FindAndEat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVPullToRefresh/SVPullToRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVPullToRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -455,8 +499,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D0E444D1F34ECCE00E6D9EE /* ViewController.swift in Sources */,
 				7D0E444B1F34ECCE00E6D9EE /* AppDelegate.swift in Sources */,
+				7DEE22AF1F44C95400F9FDD0 /* MainTabBarViewController.swift in Sources */,
+				7DEE22BC1F44D34100F9FDD0 /* ProfileViewController.swift in Sources */,
+				7DEE22B31F44CA4F00F9FDD0 /* ReceiptsListViewController.swift in Sources */,
+				7DEE22B61F44CAEA00F9FDD0 /* UIStoryboard+Instantiate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -566,6 +614,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -709,6 +758,7 @@
 				7D0E44711F34ECCF00E6D9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D0E44721F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEatTests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +767,7 @@
 				7D0E44741F34ECCF00E6D9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D0E44751F34ECCF00E6D9EE /* Build configuration list for PBXNativeTarget "FindAndEatUITests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +776,7 @@
 				7D0E44771F34ECCF00E6D9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
